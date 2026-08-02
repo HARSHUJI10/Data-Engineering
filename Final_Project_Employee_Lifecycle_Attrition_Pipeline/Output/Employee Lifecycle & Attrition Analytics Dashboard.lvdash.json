@@ -1,0 +1,308 @@
+{
+  "datasets": [
+    {
+      "name": "employee_dept_metrics",
+      "displayName": "Employee Department Metrics",
+      "queryLines": [
+        "SELECT\n",
+        "  department,\n",
+        "  COUNT(*) as employee_count,\n",
+        "  AVG(salary) as average_salary\n",
+        "FROM\n",
+        "  workspace.employee_data.silver_employee\n",
+        "WHERE\n",
+        "  status = 'Active'\n",
+        "GROUP BY\n",
+        "  department\n",
+        "ORDER BY\n",
+        "  department"
+      ]
+    },
+    {
+      "name": "dept_tenure",
+      "displayName": "Department Tenure",
+      "queryLines": [
+        "SELECT\n",
+        "  department,\n",
+        "  avg_tenure_years,\n",
+        "  employee_count as count\n",
+        "FROM\n",
+        "  workspace.employee_data.gold_avg_tenure\n",
+        "ORDER BY\n",
+        "  department"
+      ]
+    },
+    {
+      "name": "attrition_trend",
+      "displayName": "Attrition Trend",
+      "queryLines": [
+        "SELECT\n",
+        "  snapshot_date,\n",
+        "  attrition_rate_pct\n",
+        "FROM\n",
+        "  workspace.employee_data.gold_attrition_rate\n",
+        "ORDER BY\n",
+        "  snapshot_date"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "e6956fa7",
+      "displayName": "ELAAAD",
+      "layout": [
+        {
+          "widget": {
+            "name": "tenure_by_dept",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "dept_tenure",
+                  "fields": [
+                    {
+                      "name": "department",
+                      "expression": "`department`"
+                    },
+                    {
+                      "name": "sum(avg_tenure_years)",
+                      "expression": "SUM(`avg_tenure_years`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Average Tenure by Department",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "department",
+                  "displayName": "department",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(avg_tenure_years)",
+                  "displayName": "avg_tenure_years",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "department",
+                  "displayName": "department",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "dept_distribution",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "dept_tenure",
+                  "fields": [
+                    {
+                      "name": "sum(count)",
+                      "expression": "SUM(`count`)"
+                    },
+                    {
+                      "name": "department",
+                      "expression": "`department`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Department Distribution",
+                "showTitle": true
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "sum(count)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "count"
+                },
+                "color": {
+                  "fieldName": "department",
+                  "displayName": "department",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "attrition_trend",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "attrition_trend",
+                  "fields": [
+                    {
+                      "name": "daily(snapshot_date)",
+                      "expression": "DATE_TRUNC(\"DAY\", `snapshot_date`)"
+                    },
+                    {
+                      "name": "sum(attrition_rate_pct)",
+                      "expression": "SUM(`attrition_rate_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Attrition Rate Trend",
+                "showTitle": true
+              },
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "daily(snapshot_date)",
+                  "displayName": "Day",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(attrition_rate_pct)",
+                  "displayName": "attrition_rate_pct",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 7,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "emp_count_by_dept",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "dept_tenure",
+                  "fields": [
+                    {
+                      "name": "department",
+                      "expression": "`department`"
+                    },
+                    {
+                      "name": "sum(count)",
+                      "expression": "SUM(`count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Employee Count by Department",
+                "showTitle": true,
+                "showDescription": false
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "department",
+                  "displayName": "department",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(count)",
+                  "displayName": "count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "department",
+                  "displayName": "department",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 7,
+            "width": 6,
+            "height": 7
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
