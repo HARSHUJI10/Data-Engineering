@@ -1,0 +1,25 @@
+DATA CLEANING REPORT
+==================================================
+Generated: 2026-08-02 12:21:04
+
+[orders.csv]
+  Total rows: 3000
+  Missing customer_id: 153
+  Rows with DD-MM-YYYY format (fixed): 239
+  Rows where date could not be parsed at all: 0
+
+[products.csv]
+  Total rows: 550
+  Product names normalized: 79
+
+[customers.csv]
+  Total rows: 600
+  Invalid emails: 7
+  Affected customer_ids (first 20 shown): [49, 194, 222, 264, 400, 440, 486]
+
+[order_items.csv]
+  Total rows: 7561
+  Rows with negative quantity (returns): 244
+  Orphaned rows (order_id not in orders.csv): 0
+
+Cleaned files written to ./cleaned_data/

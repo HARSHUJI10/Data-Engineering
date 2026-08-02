@@ -1,0 +1,551 @@
+product_id,product_name,category,subcategory,cost_price
+1,Pro Laptop 1,Electronics,Laptops,5058.13
+2,Premium Laptop 2,Electronics,Laptops,22954.88
+3,Smart Playsuit 3,Clothing,Kids,12652.9
+4,Pro Smartphone 4,Electronics,Mobiles,14871.39
+5,Portable Sneakers 5,Clothing,Footwear,8639.01
+6,Eco Cookware Set 6,Home,Kitchen,4114.54
+7,Pro Dress 7,Clothing,Women,6763.64
+8,Premium Guidebook 8,Books,Self-Help,24180.1
+9,Ultra Camera 9,Electronics,Cameras,15048.49
+10,Eco Laptop 10,Electronics,Laptops,23577.97
+11,Compact Bedsheet Set 11,Home,Bedding,11502.0
+12,Eco Sneakers 12,Clothing,Footwear,20616.55
+13,Classic Guidebook 13,Books,Self-Help,24163.81
+14,Portable Storage Box 14,Home,Storage,7496.97
+15,Classic Camera 15,Electronics,Cameras,6948.26
+16,Eco Wall Art 16,Home,Decor,23807.09
+17,Ultra Chair 17,Home,Furniture,6045.54
+18,Compact Charger 18,Electronics,Accessories,17034.86
+19,Eco Camera 19,Electronics,Cameras,10493.21
+20,Portable Novel 20,Books,Fiction,14322.46
+21,Pro Playsuit 21,Clothing,Kids,15975.92
+22,Essential Textbook 22,Books,Academic,4291.17
+23,Classic Playsuit 23,Clothing,Kids,18535.93
+24,Classic Playsuit 24,Clothing,Kids,5622.03
+25,Smart Bedsheet Set 25,Home,Bedding,14659.99
+26,Deluxe Novel 26,Books,Fiction,14610.19
+27,Pro Camera 27,Electronics,Cameras,21694.07
+28,Eco Guidebook 28,Books,Self-Help,21777.69
+29,Pro Dress 29,Clothing,Women,24680.43
+30,Smart Biography 30,Books,Non-Fiction,4549.9
+31,Smart Camera 31,Electronics,Cameras,4461.77
+32,Deluxe Smartphone 32,Electronics,Mobiles,19041.77
+33,Ultra Jacket 33,Clothing,Winterwear,19101.05
+34,Portable Laptop 34,Electronics,Laptops,10763.77
+35,Compact Comic Book 35,Books,Comics,5025.39
+36,Smart Cookware Set 36,Home,Kitchen,13299.29
+37,Pro Smartphone 37,Electronics,Mobiles,21930.78
+38,Classic Chair 38,Home,Furniture,14737.33
+39,Premium T-Shirt 39,Clothing,Men,7306.15
+40,Ultra Bedsheet Set 40,Home,Bedding,22539.53
+41,Ultra Chair 41,Home,Furniture,22959.22
+42,Pro Novel 42,Books,Fiction,24622.74
+43,Portable T-Shirt 43,Clothing,Men,3122.89
+44,Eco Camera 44,Electronics,Cameras,15597.21
+45,Premium Smartphone 45,Electronics,Mobiles,10448.55
+46,Essential Novel 46,Books,Fiction,17561.61
+47,Eco T-Shirt 47,Clothing,Men,2569.45
+48,Portable Storage Box 48,Home,Storage,10499.7
+49,Portable Charger 49,Electronics,Accessories,19629.76
+50,Portable Biography 50,Books,Non-Fiction,6611.7
+51,Compact Playsuit 51,Clothing,Kids,1033.17
+52,Deluxe Biography 52,Books,Non-Fiction,118.31
+53,Portable Smartphone 53,Electronics,Mobiles,3771.16
+54,Classic Charger 54,Electronics,Accessories,2577.2
+55,Deluxe Chair 55,Home,Furniture,7435.75
+56,Classic Novel 56,Books,Fiction,21859.8
+57,Smart Wall Art 57,Home,Decor,2941.73
+58,Ultra Smartphone 58,Electronics,Mobiles,4304.28
+59,Portable Bedsheet Set 59,Home,Bedding,18340.05
+60,Ultra Wall Art 60,Home,Decor,24059.63
+61,Deluxe Bedsheet Set 61,Home,Bedding,16238.72
+62,Ultra T-Shirt 62,Clothing,Men,1513.23
+63,Compact T-Shirt 63,Clothing,Men,12092.74
+64,Portable Biography 64,Books,Non-Fiction,8997.04
+65,Deluxe Laptop 65,Electronics,Laptops,2867.79
+66,Premium Comic Book 66,Books,Comics,7890.24
+67,Essential Playsuit 67,Clothing,Kids,17529.48
+68,Pro Camera 68,Electronics,Cameras,16609.58
+69,Essential Biography 69,Books,Non-Fiction,15342.2
+70,Essential Laptop 70,Electronics,Laptops,21304.19
+71,Deluxe T-Shirt 71,Clothing,Men,8305.83
+72,Essential Cookware Set 72,Home,Kitchen,16100.77
+73,Classic Biography 73,Books,Non-Fiction,20041.47
+74,Deluxe Novel 74,Books,Fiction,3011.74
+75,Classic Novel 75,Books,Fiction,944.01
+76,Portable Smartphone 76,Electronics,Mobiles,15956.58
+77,Smart Sneakers 77,Clothing,Footwear,1404.17
+78,Smart Sneakers 78,Clothing,Footwear,15512.96
+79,Deluxe Textbook 79,Books,Academic,5582.59
+80,Eco Wall Art 80,Home,Decor,9378.56
+81,Ultra Smartphone 81,Electronics,Mobiles,20554.87
+82,Eco Novel 82,Books,Fiction,4729.21
+83,Deluxe Biography 83,Books,Non-Fiction,4804.94
+84,Compact Cookware Set 84,Home,Kitchen,20944.78
+85,Deluxe Camera 85,Electronics,Cameras,23906.95
+86,Premium Sneakers 86,Clothing,Footwear,1261.86
+87,Deluxe Guidebook 87,Books,Self-Help,19537.98
+88,Ultra Jacket 88,Clothing,Winterwear,3253.13
+89,Portable Guidebook 89,Books,Self-Help,12627.55
+90,Portable Comic Book 90,Books,Comics,19071.25
+91,Smart Bedsheet Set 91,Home,Bedding,11348.5
+92,Compact Dress 92,Clothing,Women,22166.6
+93,Smart Storage Box 93,Home,Storage,23391.03
+94,Pro Dress 94,Clothing,Women,7299.96
+95,Ultra Chair 95,Home,Furniture,17373.08
+96,Smart Cookware Set 96,Home,Kitchen,14591.02
+97,Eco Guidebook 97,Books,Self-Help,10588.54
+98,Classic Charger 98,Electronics,Accessories,1373.97
+99,Eco Laptop 99,Electronics,Laptops,4065.34
+100,Ultra Wall Art 100,Home,Decor,17280.34
+101,Essential Chair 101,Home,Furniture,2606.88
+102,Compact Jacket 102,Clothing,Winterwear,19618.46
+103,Compact Cookware Set 103,Home,Kitchen,23919.71
+104,Premium Storage Box 104,Home,Storage,5117.03
+105,Smart Biography 105,Books,Non-Fiction,13688.05
+106,Eco Dress 106,Clothing,Women,24587.16
+107,Ultra Laptop 107,Electronics,Laptops,3027.88
+108,Eco Camera 108,Electronics,Cameras,3295.16
+109,Smart Cookware Set 109,Home,Kitchen,23440.49
+110,Smart Laptop 110,Electronics,Laptops,19352.84
+111,Portable Bedsheet Set 111,Home,Bedding,1868.38
+112,Pro Storage Box 112,Home,Storage,13039.13
+113,Essential Sneakers 113,Clothing,Footwear,2344.04
+114,Smart Dress 114,Clothing,Women,7374.68
+115,Premium Guidebook 115,Books,Self-Help,11169.4
+116,Smart T-Shirt 116,Clothing,Men,19915.35
+117,Eco Camera 117,Electronics,Cameras,7106.58
+118,Essential Storage Box 118,Home,Storage,1144.1
+119,Essential Playsuit 119,Clothing,Kids,4226.5
+120,Pro Smartphone 120,Electronics,Mobiles,19350.88
+121,Pro Novel 121,Books,Fiction,17583.43
+122,Ultra Novel 122,Books,Fiction,8326.3
+123,Premium Smartphone 123,Electronics,Mobiles,6335.1
+124,Pro Charger 124,Electronics,Accessories,10220.44
+125,Compact Comic Book 125,Books,Comics,9768.07
+126,Premium Charger 126,Electronics,Accessories,15477.82
+127,Smart Smartphone 127,Electronics,Mobiles,2698.08
+128,Classic Storage Box 128,Home,Storage,23170.94
+129,Premium Comic Book 129,Books,Comics,13360.02
+130,Essential Sneakers 130,Clothing,Footwear,15869.44
+131,Premium Wall Art 131,Home,Decor,13898.99
+132,Premium Smartphone 132,Electronics,Mobiles,9882.34
+133,Pro Headphone 133,Electronics,Headphones,22593.48
+134,Compact Chair 134,Home,Furniture,21293.9
+135,Ultra Dress 135,Clothing,Women,20876.97
+136,Ultra T-Shirt 136,Clothing,Men,14203.95
+137,Deluxe Charger 137,Electronics,Accessories,1874.96
+138,Classic Headphone 138,Electronics,Headphones,14535.86
+139,Ultra Wall Art 139,Home,Decor,5901.59
+140,Classic Storage Box 140,Home,Storage,7978.76
+141,Portable Textbook 141,Books,Academic,17351.78
+142,Portable Jacket 142,Clothing,Winterwear,7942.51
+143,Premium Biography 143,Books,Non-Fiction,19652.22
+144,Smart Textbook 144,Books,Academic,8322.5
+145,Deluxe Comic Book 145,Books,Comics,7671.52
+146,Portable Laptop 146,Electronics,Laptops,21474.91
+147,Pro Jacket 147,Clothing,Winterwear,22164.08
+148,Premium Smartphone 148,Electronics,Mobiles,15809.08
+149,Pro Guidebook 149,Books,Self-Help,13812.27
+150,Smart Biography 150,Books,Non-Fiction,22291.37
+151,Deluxe Chair 151,Home,Furniture,2309.32
+152,Premium Storage Box 152,Home,Storage,21207.15
+153,Ultra Jacket 153,Clothing,Winterwear,4519.67
+154,Smart Sneakers 154,Clothing,Footwear,5832.16
+155,Pro Wall Art 155,Home,Decor,12971.24
+156,Deluxe Bedsheet Set 156,Home,Bedding,22044.72
+157,Classic Headphone 157,Electronics,Headphones,13058.25
+158,Portable Wall Art 158,Home,Decor,4387.55
+159,Portable Textbook 159,Books,Academic,20894.95
+160,Pro Bedsheet Set 160,Home,Bedding,8854.81
+161,Deluxe Bedsheet Set 161,Home,Bedding,214.61
+162,Ultra Sneakers 162,Clothing,Footwear,12887.8
+163,Ultra Chair 163,Home,Furniture,9087.46
+164,Compact Laptop 164,Electronics,Laptops,18020.38
+165,Deluxe Comic Book 165,Books,Comics,4073.09
+166,Pro Novel 166,Books,Fiction,14829.07
+167,Premium Jacket 167,Clothing,Winterwear,3714.28
+168,Ultra Playsuit 168,Clothing,Kids,10166.14
+169,Classic Headphone 169,Electronics,Headphones,15182.82
+170,Ultra Comic Book 170,Books,Comics,10298.63
+171,Ultra Jacket 171,Clothing,Winterwear,12794.58
+172,Deluxe Playsuit 172,Clothing,Kids,1767.63
+173,Ultra Comic Book 173,Books,Comics,13091.65
+174,Portable Biography 174,Books,Non-Fiction,22545.13
+175,Essential Charger 175,Electronics,Accessories,2375.09
+176,Essential Jacket 176,Clothing,Winterwear,22429.38
+177,Compact Guidebook 177,Books,Self-Help,1133.79
+178,Deluxe Biography 178,Books,Non-Fiction,9561.85
+179,Ultra Camera 179,Electronics,Cameras,19158.18
+180,Portable Headphone 180,Electronics,Headphones,10245.74
+181,Premium T-Shirt 181,Clothing,Men,2989.82
+182,Pro Camera 182,Electronics,Cameras,7931.75
+183,Ultra Cookware Set 183,Home,Kitchen,14654.99
+184,Compact Storage Box 184,Home,Storage,15316.42
+185,Compact Biography 185,Books,Non-Fiction,13961.19
+186,Essential Playsuit 186,Clothing,Kids,6381.75
+187,Smart Storage Box 187,Home,Storage,9983.34
+188,Pro T-Shirt 188,Clothing,Men,17497.82
+189,Pro T-Shirt 189,Clothing,Men,19662.72
+190,Compact Laptop 190,Electronics,Laptops,182.0
+191,Deluxe Laptop 191,Electronics,Laptops,10912.67
+192,Pro Headphone 192,Electronics,Headphones,15245.27
+193,Portable Comic Book 193,Books,Comics,7197.41
+194,Deluxe Laptop 194,Electronics,Laptops,5082.6
+195,Premium Chair 195,Home,Furniture,12788.17
+196,Ultra Jacket 196,Clothing,Winterwear,9025.51
+197,Classic Laptop 197,Electronics,Laptops,19502.84
+198,Compact Bedsheet Set 198,Home,Bedding,12967.68
+199,Essential Smartphone 199,Electronics,Mobiles,20752.63
+200,Eco Wall Art 200,Home,Decor,24078.28
+201,Portable Comic Book 201,Books,Comics,10208.01
+202,Classic Charger 202,Electronics,Accessories,8532.15
+203,Eco Charger 203,Electronics,Accessories,20338.03
+204,Compact Bedsheet Set 204,Home,Bedding,19260.68
+205,Deluxe Bedsheet Set 205,Home,Bedding,21557.48
+206,Eco Novel 206,Books,Fiction,19726.97
+207,Smart Dress 207,Clothing,Women,8859.75
+208,Pro Headphone 208,Electronics,Headphones,10003.32
+209,Essential Cookware Set 209,Home,Kitchen,11940.06
+210,Portable Chair 210,Home,Furniture,23680.6
+211,Pro Sneakers 211,Clothing,Footwear,6089.31
+212,Pro Chair 212,Home,Furniture,6279.9
+213,Classic Chair 213,Home,Furniture,16911.51
+214,Premium Guidebook 214,Books,Self-Help,13559.78
+215,Smart Camera 215,Electronics,Cameras,12333.89
+216,Ultra Bedsheet Set 216,Home,Bedding,22904.37
+217,Pro Bedsheet Set 217,Home,Bedding,3249.74
+218,Essential Comic Book 218,Books,Comics,9873.24
+219,Classic Sneakers 219,Clothing,Footwear,11528.76
+220,Pro Smartphone 220,Electronics,Mobiles,2563.66
+221,Eco Storage Box 221,Home,Storage,6608.08
+222,Portable Bedsheet Set 222,Home,Bedding,4638.65
+223,Compact Biography 223,Books,Non-Fiction,9339.13
+224,Deluxe Textbook 224,Books,Academic,3321.92
+225,Eco T-Shirt 225,Clothing,Men,13905.73
+226,Ultra Biography 226,Books,Non-Fiction,18476.62
+227,Ultra Novel 227,Books,Fiction,3405.07
+228,Eco Bedsheet Set 228,Home,Bedding,21469.62
+229,Classic Camera 229,Electronics,Cameras,1547.91
+230,Classic Bedsheet Set 230,Home,Bedding,8399.68
+231,Essential Wall Art 231,Home,Decor,20259.9
+232,Compact Cookware Set 232,Home,Kitchen,24079.76
+233,Portable Jacket 233,Clothing,Winterwear,13484.03
+234,Smart Wall Art 234,Home,Decor,12212.97
+235,Compact Novel 235,Books,Fiction,11620.61
+236,Smart Dress 236,Clothing,Women,15327.14
+237,Classic Novel 237,Books,Fiction,5744.04
+238,Eco Wall Art 238,Home,Decor,9916.61
+239,Portable Textbook 239,Books,Academic,11284.7
+240,Premium Dress 240,Clothing,Women,16567.46
+241,Ultra Laptop 241,Electronics,Laptops,2434.07
+242,Premium Guidebook 242,Books,Self-Help,13123.37
+243,Eco Smartphone 243,Electronics,Mobiles,2153.57
+244,Pro Textbook 244,Books,Academic,7140.17
+245,Essential Dress 245,Clothing,Women,762.85
+246,Deluxe Wall Art 246,Home,Decor,21778.91
+247,Deluxe Storage Box 247,Home,Storage,13505.22
+248,Compact Guidebook 248,Books,Self-Help,16006.23
+249,Deluxe Wall Art 249,Home,Decor,20127.46
+250,Smart Textbook 250,Books,Academic,3935.15
+251,Essential Smartphone 251,Electronics,Mobiles,21206.26
+252,Deluxe Wall Art 252,Home,Decor,17209.86
+253,Eco Comic Book 253,Books,Comics,19959.22
+254,Essential T-Shirt 254,Clothing,Men,10322.81
+255,Pro Comic Book 255,Books,Comics,18441.09
+256,Pro Comic Book 256,Books,Comics,10584.87
+257,Portable Jacket 257,Clothing,Winterwear,17131.78
+258,Eco Storage Box 258,Home,Storage,21344.38
+259,Eco Dress 259,Clothing,Women,15462.35
+260,Deluxe Storage Box 260,Home,Storage,533.92
+261,Premium Charger 261,Electronics,Accessories,2601.72
+262,Deluxe Chair 262,Home,Furniture,5858.62
+263,Deluxe T-Shirt 263,Clothing,Men,10535.06
+264,Deluxe Textbook 264,Books,Academic,841.84
+265,Premium Laptop 265,Electronics,Laptops,9840.92
+266,Pro Biography 266,Books,Non-Fiction,6289.48
+267,Classic Novel 267,Books,Fiction,17881.33
+268,Pro Comic Book 268,Books,Comics,886.08
+269,Essential Novel 269,Books,Fiction,5250.76
+270,Smart Textbook 270,Books,Academic,18219.52
+271,Deluxe Headphone 271,Electronics,Headphones,5008.15
+272,Classic Laptop 272,Electronics,Laptops,10882.33
+273,Eco Laptop 273,Electronics,Laptops,9925.42
+274,Premium T-Shirt 274,Clothing,Men,17284.25
+275,Classic Playsuit 275,Clothing,Kids,12522.98
+276,Premium Cookware Set 276,Home,Kitchen,3890.26
+277,Deluxe Laptop 277,Electronics,Laptops,24542.81
+278,Pro Bedsheet Set 278,Home,Bedding,8986.28
+279,Premium Playsuit 279,Clothing,Kids,10965.63
+280,Deluxe Storage Box 280,Home,Storage,4706.34
+281,Deluxe Wall Art 281,Home,Decor,20792.17
+282,Essential T-Shirt 282,Clothing,Men,7427.03
+283,Smart Storage Box 283,Home,Storage,19409.15
+284,Premium Biography 284,Books,Non-Fiction,9133.68
+285,Classic Playsuit 285,Clothing,Kids,13496.97
+286,Essential Biography 286,Books,Non-Fiction,19155.07
+287,Eco Jacket 287,Clothing,Winterwear,16040.55
+288,Essential Smartphone 288,Electronics,Mobiles,1142.24
+289,Premium Dress 289,Clothing,Women,12159.99
+290,Portable Smartphone 290,Electronics,Mobiles,9745.54
+291,Portable Guidebook 291,Books,Self-Help,6435.67
+292,Portable Chair 292,Home,Furniture,376.5
+293,Classic Sneakers 293,Clothing,Footwear,15990.97
+294,Compact Storage Box 294,Home,Storage,19866.53
+295,Eco Charger 295,Electronics,Accessories,18370.79
+296,Pro Cookware Set 296,Home,Kitchen,2473.13
+297,Compact Jacket 297,Clothing,Winterwear,13178.49
+298,Ultra Jacket 298,Clothing,Winterwear,13975.63
+299,Smart Charger 299,Electronics,Accessories,17578.63
+300,Ultra Novel 300,Books,Fiction,13771.64
+301,Essential Chair 301,Home,Furniture,11103.15
+302,Essential Wall Art 302,Home,Decor,8150.12
+303,Compact Bedsheet Set 303,Home,Bedding,8120.1
+304,Essential Jacket 304,Clothing,Winterwear,19154.42
+305,Deluxe Wall Art 305,Home,Decor,9957.41
+306,Portable Headphone 306,Electronics,Headphones,24835.63
+307,Eco Cookware Set 307,Home,Kitchen,5409.83
+308,Eco Cookware Set 308,Home,Kitchen,12806.22
+309,Premium T-Shirt 309,Clothing,Men,3944.87
+310,Portable Wall Art 310,Home,Decor,6443.28
+311,Portable Cookware Set 311,Home,Kitchen,22951.15
+312,Deluxe Headphone 312,Electronics,Headphones,20651.35
+313,Eco Charger 313,Electronics,Accessories,9569.58
+314,Smart Headphone 314,Electronics,Headphones,10885.89
+315,Portable Laptop 315,Electronics,Laptops,15865.48
+316,Eco Novel 316,Books,Fiction,8016.95
+317,Essential Playsuit 317,Clothing,Kids,3872.28
+318,Portable Comic Book 318,Books,Comics,2297.57
+319,Compact Textbook 319,Books,Academic,2109.5
+320,Compact Charger 320,Electronics,Accessories,9993.25
+321,Ultra Biography 321,Books,Non-Fiction,4992.81
+322,Pro Guidebook 322,Books,Self-Help,24927.12
+323,Classic Dress 323,Clothing,Women,10780.14
+324,Compact Smartphone 324,Electronics,Mobiles,8740.28
+325,Portable Wall Art 325,Home,Decor,19253.55
+326,Portable Playsuit 326,Clothing,Kids,20079.76
+327,Premium Sneakers 327,Clothing,Footwear,5875.57
+328,Classic Chair 328,Home,Furniture,6114.06
+329,Premium Playsuit 329,Clothing,Kids,20116.81
+330,Deluxe Bedsheet Set 330,Home,Bedding,18513.32
+331,Essential Dress 331,Clothing,Women,6503.52
+332,Ultra Guidebook 332,Books,Self-Help,16723.1
+333,Essential Guidebook 333,Books,Self-Help,1549.75
+334,Eco Jacket 334,Clothing,Winterwear,23632.15
+335,Eco Camera 335,Electronics,Cameras,22826.08
+336,Premium Cookware Set 336,Home,Kitchen,22090.89
+337,Compact Biography 337,Books,Non-Fiction,17756.74
+338,Portable Bedsheet Set 338,Home,Bedding,4701.11
+339,Premium Guidebook 339,Books,Self-Help,7657.94
+340,Ultra Comic Book 340,Books,Comics,8830.23
+341,Essential Chair 341,Home,Furniture,1597.14
+342,Premium Bedsheet Set 342,Home,Bedding,23730.45
+343,Smart Dress 343,Clothing,Women,16440.45
+344,Essential Camera 344,Electronics,Cameras,15330.59
+345,Pro Sneakers 345,Clothing,Footwear,10690.3
+346,Smart Storage Box 346,Home,Storage,3337.71
+347,Essential Jacket 347,Clothing,Winterwear,5097.64
+348,Essential Playsuit 348,Clothing,Kids,10780.1
+349,Ultra Jacket 349,Clothing,Winterwear,13955.64
+350,Smart Laptop 350,Electronics,Laptops,3680.79
+351,Compact Headphone 351,Electronics,Headphones,7618.54
+352,Pro Chair 352,Home,Furniture,703.65
+353,Portable Storage Box 353,Home,Storage,14929.2
+354,Smart T-Shirt 354,Clothing,Men,3395.46
+355,Ultra Textbook 355,Books,Academic,12311.57
+356,Pro Dress 356,Clothing,Women,10244.3
+357,Compact Headphone 357,Electronics,Headphones,16799.91
+358,Classic Dress 358,Clothing,Women,23869.74
+359,Deluxe Guidebook 359,Books,Self-Help,21676.03
+360,Compact Sneakers 360,Clothing,Footwear,15217.85
+361,Compact Textbook 361,Books,Academic,18574.57
+362,Classic Charger 362,Electronics,Accessories,20683.9
+363,Essential Laptop 363,Electronics,Laptops,24596.57
+364,Compact Charger 364,Electronics,Accessories,15784.68
+365,Eco Laptop 365,Electronics,Laptops,22115.72
+366,Ultra Bedsheet Set 366,Home,Bedding,15347.7
+367,Ultra Charger 367,Electronics,Accessories,16170.23
+368,Classic Charger 368,Electronics,Accessories,14656.92
+369,Compact Sneakers 369,Clothing,Footwear,671.56
+370,Pro Guidebook 370,Books,Self-Help,2299.98
+371,Classic Chair 371,Home,Furniture,11262.49
+372,Essential Cookware Set 372,Home,Kitchen,18185.5
+373,Essential Sneakers 373,Clothing,Footwear,19218.1
+374,Ultra Storage Box 374,Home,Storage,3657.95
+375,Eco Camera 375,Electronics,Cameras,19227.33
+376,Ultra Textbook 376,Books,Academic,24012.83
+377,Eco Charger 377,Electronics,Accessories,21392.51
+378,Deluxe Charger 378,Electronics,Accessories,14742.12
+379,Compact Comic Book 379,Books,Comics,15050.35
+380,Essential Laptop 380,Electronics,Laptops,15734.45
+381,Ultra T-Shirt 381,Clothing,Men,8758.04
+382,Portable T-Shirt 382,Clothing,Men,7496.12
+383,Classic Smartphone 383,Electronics,Mobiles,4497.3
+384,Portable Storage Box 384,Home,Storage,14076.32
+385,Smart Guidebook 385,Books,Self-Help,2373.5
+386,Smart Wall Art 386,Home,Decor,20515.61
+387,Classic Guidebook 387,Books,Self-Help,3406.92
+388,Essential Wall Art 388,Home,Decor,5285.64
+389,Premium Jacket 389,Clothing,Winterwear,24484.78
+390,Portable Camera 390,Electronics,Cameras,24657.65
+391,Portable Bedsheet Set 391,Home,Bedding,6528.52
+392,Portable Chair 392,Home,Furniture,13016.66
+393,Ultra Comic Book 393,Books,Comics,5856.4
+394,Premium Chair 394,Home,Furniture,15655.25
+395,Portable Laptop 395,Electronics,Laptops,10380.33
+396,Essential Wall Art 396,Home,Decor,5347.83
+397,Eco Playsuit 397,Clothing,Kids,7728.93
+398,Classic Cookware Set 398,Home,Kitchen,8566.97
+399,Pro Laptop 399,Electronics,Laptops,8481.52
+400,Premium Comic Book 400,Books,Comics,12063.31
+401,Smart Guidebook 401,Books,Self-Help,20363.46
+402,Eco Charger 402,Electronics,Accessories,16971.03
+403,Portable Laptop 403,Electronics,Laptops,19998.41
+404,Ultra Cookware Set 404,Home,Kitchen,827.77
+405,Ultra Guidebook 405,Books,Self-Help,9769.68
+406,Smart Headphone 406,Electronics,Headphones,6823.86
+407,Pro Camera 407,Electronics,Cameras,20744.96
+408,Essential Chair 408,Home,Furniture,2850.17
+409,Classic Laptop 409,Electronics,Laptops,672.12
+410,Ultra Guidebook 410,Books,Self-Help,23094.74
+411,Ultra Wall Art 411,Home,Decor,2501.38
+412,Premium Dress 412,Clothing,Women,17856.25
+413,Eco Smartphone 413,Electronics,Mobiles,17191.96
+414,Deluxe Headphone 414,Electronics,Headphones,2622.42
+415,Portable Cookware Set 415,Home,Kitchen,15989.33
+416,Pro Playsuit 416,Clothing,Kids,6952.41
+417,Classic Bedsheet Set 417,Home,Bedding,3979.53
+418,Portable Smartphone 418,Electronics,Mobiles,2604.26
+419,Smart Storage Box 419,Home,Storage,23584.78
+420,Pro Storage Box 420,Home,Storage,7818.87
+421,Deluxe Storage Box 421,Home,Storage,11794.85
+422,Compact Smartphone 422,Electronics,Mobiles,9828.32
+423,Smart Guidebook 423,Books,Self-Help,20445.18
+424,Portable Camera 424,Electronics,Cameras,11733.48
+425,Deluxe Textbook 425,Books,Academic,23688.83
+426,Eco Jacket 426,Clothing,Winterwear,9832.32
+427,Deluxe Wall Art 427,Home,Decor,1680.86
+428,Deluxe Headphone 428,Electronics,Headphones,4311.5
+429,Portable Storage Box 429,Home,Storage,10171.87
+430,Essential Headphone 430,Electronics,Headphones,19821.15
+431,Portable Comic Book 431,Books,Comics,15540.83
+432,Compact Sneakers 432,Clothing,Footwear,20357.2
+433,Portable Comic Book 433,Books,Comics,13635.95
+434,Classic Dress 434,Clothing,Women,17812.13
+435,Portable Novel 435,Books,Fiction,8168.18
+436,Ultra Camera 436,Electronics,Cameras,10174.55
+437,Compact Charger 437,Electronics,Accessories,16142.48
+438,Pro Smartphone 438,Electronics,Mobiles,22187.18
+439,Ultra Laptop 439,Electronics,Laptops,7323.01
+440,Pro Biography 440,Books,Non-Fiction,7949.11
+441,Smart Bedsheet Set 441,Home,Bedding,14589.04
+442,Eco Biography 442,Books,Non-Fiction,24199.09
+443,Smart Charger 443,Electronics,Accessories,21648.71
+444,Portable Sneakers 444,Clothing,Footwear,7987.28
+445,Compact Comic Book 445,Books,Comics,5319.84
+446,Ultra Sneakers 446,Clothing,Footwear,9645.65
+447,Ultra Bedsheet Set 447,Home,Bedding,21824.76
+448,Premium Dress 448,Clothing,Women,3642.7
+449,Ultra Comic Book 449,Books,Comics,20158.24
+450,Compact Guidebook 450,Books,Self-Help,11387.14
+451,Deluxe Guidebook 451,Books,Self-Help,5682.24
+452,Premium Guidebook 452,Books,Self-Help,21177.76
+453,Eco Jacket 453,Clothing,Winterwear,13676.85
+454,Premium Cookware Set 454,Home,Kitchen,17636.82
+455,Deluxe Charger 455,Electronics,Accessories,2047.57
+456,Essential Bedsheet Set 456,Home,Bedding,2256.74
+457,Essential Novel 457,Books,Fiction,7846.87
+458,Essential Headphone 458,Electronics,Headphones,11748.28
+459,Smart Guidebook 459,Books,Self-Help,24016.5
+460,Ultra Wall Art 460,Home,Decor,18748.16
+461,Deluxe Cookware Set 461,Home,Kitchen,14342.86
+462,Premium Storage Box 462,Home,Storage,2108.63
+463,Eco Headphone 463,Electronics,Headphones,6916.67
+464,Classic Cookware Set 464,Home,Kitchen,22757.78
+465,Smart Sneakers 465,Clothing,Footwear,6568.25
+466,Ultra Sneakers 466,Clothing,Footwear,21557.26
+467,Ultra Cookware Set 467,Home,Kitchen,20552.01
+468,Compact Comic Book 468,Books,Comics,11032.62
+469,Portable Dress 469,Clothing,Women,8659.64
+470,Premium Cookware Set 470,Home,Kitchen,9998.68
+471,Essential Bedsheet Set 471,Home,Bedding,17103.57
+472,Eco Comic Book 472,Books,Comics,345.98
+473,Smart Comic Book 473,Books,Comics,17087.76
+474,Essential Smartphone 474,Electronics,Mobiles,23906.78
+475,Eco Guidebook 475,Books,Self-Help,6713.84
+476,Portable Headphone 476,Electronics,Headphones,19340.12
+477,Pro Jacket 477,Clothing,Winterwear,16959.07
+478,Essential Playsuit 478,Clothing,Kids,20800.65
+479,Classic Camera 479,Electronics,Cameras,17153.21
+480,Eco Chair 480,Home,Furniture,899.34
+481,Portable Smartphone 481,Electronics,Mobiles,20894.71
+482,Classic Smartphone 482,Electronics,Mobiles,3291.19
+483,Ultra T-Shirt 483,Clothing,Men,11700.54
+484,Eco Camera 484,Electronics,Cameras,17320.93
+485,Ultra Wall Art 485,Home,Decor,6968.32
+486,Compact Camera 486,Electronics,Cameras,1548.46
+487,Deluxe Chair 487,Home,Furniture,15277.03
+488,Classic Sneakers 488,Clothing,Footwear,5498.74
+489,Eco Camera 489,Electronics,Cameras,1806.79
+490,Premium Bedsheet Set 490,Home,Bedding,3763.91
+491,Compact Smartphone 491,Electronics,Mobiles,17516.38
+492,Premium Guidebook 492,Books,Self-Help,23500.78
+493,Compact Comic Book 493,Books,Comics,18207.8
+494,Pro Charger 494,Electronics,Accessories,20458.52
+495,Portable Novel 495,Books,Fiction,24790.45
+496,Compact Wall Art 496,Home,Decor,2312.14
+497,Deluxe Cookware Set 497,Home,Kitchen,7284.47
+498,Essential Dress 498,Clothing,Women,16535.32
+499,Classic Bedsheet Set 499,Home,Bedding,9013.56
+500,Pro Camera 500,Electronics,Cameras,682.85
+501,Compact Sneakers 501,Clothing,Footwear,16103.02
+502,Deluxe Guidebook 502,Books,Self-Help,459.64
+503,Smart Cookware Set 503,Home,Kitchen,1118.22
+504,Essential Laptop 504,Electronics,Laptops,16968.04
+505,Pro Jacket 505,Clothing,Winterwear,970.1
+506,Premium Sneakers 506,Clothing,Footwear,22954.58
+507,Ultra Laptop 507,Electronics,Laptops,1296.45
+508,Deluxe Cookware Set 508,Home,Kitchen,20892.04
+509,Classic Smartphone 509,Electronics,Mobiles,19989.42
+510,Pro T-Shirt 510,Clothing,Men,20297.45
+511,Classic Textbook 511,Books,Academic,14420.38
+512,Pro Playsuit 512,Clothing,Kids,14847.48
+513,Classic Cookware Set 513,Home,Kitchen,18950.87
+514,Essential Playsuit 514,Clothing,Kids,6128.93
+515,Classic Laptop 515,Electronics,Laptops,15823.26
+516,Premium Biography 516,Books,Non-Fiction,2064.03
+517,Classic Laptop 517,Electronics,Laptops,14863.58
+518,Deluxe Bedsheet Set 518,Home,Bedding,5193.7
+519,Deluxe Storage Box 519,Home,Storage,23455.34
+520,Ultra Charger 520,Electronics,Accessories,15320.64
+521,Smart Headphone 521,Electronics,Headphones,13964.87
+522,Essential T-Shirt 522,Clothing,Men,15492.08
+523,Pro Sneakers 523,Clothing,Footwear,4883.29
+524,Deluxe Sneakers 524,Clothing,Footwear,16770.06
+525,Smart Smartphone 525,Electronics,Mobiles,10895.06
+526,Deluxe Storage Box 526,Home,Storage,1358.79
+527,Premium Dress 527,Clothing,Women,2945.82
+528,Portable Sneakers 528,Clothing,Footwear,10505.7
+529,Classic Chair 529,Home,Furniture,2496.7
+530,Compact Biography 530,Books,Non-Fiction,1884.57
+531,Compact Novel 531,Books,Fiction,11402.02
+532,Ultra Textbook 532,Books,Academic,4894.17
+533,Pro Wall Art 533,Home,Decor,850.76
+534,Ultra Headphone 534,Electronics,Headphones,11491.54
+535,Pro Playsuit 535,Clothing,Kids,15110.72
+536,Essential Jacket 536,Clothing,Winterwear,2207.53
+537,Portable Biography 537,Books,Non-Fiction,11595.93
+538,Pro Camera 538,Electronics,Cameras,10884.51
+539,Ultra Jacket 539,Clothing,Winterwear,22461.38
+540,Premium Novel 540,Books,Fiction,18350.23
+541,Essential Camera 541,Electronics,Cameras,20252.43
+542,Deluxe Camera 542,Electronics,Cameras,13984.25
+543,Pro Camera 543,Electronics,Cameras,6014.61
+544,Deluxe Smartphone 544,Electronics,Mobiles,4086.98
+545,Portable Guidebook 545,Books,Self-Help,11620.83
+546,Ultra Sneakers 546,Clothing,Footwear,9291.99
+547,Classic Novel 547,Books,Fiction,17284.23
+548,Compact Headphone 548,Electronics,Headphones,17466.47
+549,Portable T-Shirt 549,Clothing,Men,18407.23
+550,Smart Charger 550,Electronics,Accessories,2818.62

@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "ecommerce",
+            "database": "${workspaceFolder:MIni_Project_E-Commerce_Order_Analytics_System}/ecommerce"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
